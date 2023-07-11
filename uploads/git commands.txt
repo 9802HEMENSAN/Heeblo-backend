@@ -1,0 +1,39 @@
+run server - > server  npx json-server --watch db.json --port 8080 
+
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+npx create-react-app template-app --template typescript
+
+import { BrowserRouter } from "react-router-dom";
+
+import { Provider } from 'react-redux';
+import { store } from './redux/store';
+
+ <BrowserRouter>
+     <Provider store={store}> 
+      <ChakraProvider>
+          <App />
+      </ChakraProvider>
+      </Provider>
+  </BrowserRouter>
+
+Store.js
+
+Store : - import{ legacy_createStore ,combineReducers, applyMiddleware } from "redux"; 
+
+export const store = legacy_createStore(rootReducer, applyMiddleware(thunk))
+
+
+
+
+
+
+
+git init 
+
+https://www.linkedin.com/in/hemensan-mahilange-4a9499242/
+https://github.com/9802HEMENSAN
+https://masai-school.notion.site/10-LPA-b32d57059c764ed599d8aafefa451010  --> 10LPA
+https://masai-school.notion.site/5-6-LPA-cbb21c538d724a8c96e7bfa922f044fa --> 5-6LPA
+https://www.notion.so/6-8-LPA-9ac453df206c46489e98553607c231d5  -->6-8LPA
+mongodb+srv://tambeaditya101:tambeaditya101@cluster0.jy43s7w.mongodb.net/caretlane?retryWrites=true&w=majority
